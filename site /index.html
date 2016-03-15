@@ -3,23 +3,66 @@
 <head>
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/styles.css">
-<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<title>MarketRate</title>
 </head>
 <body>
 
+<div class="container" id="main">
 <h1>Market Rate</h1>
 
-<div class="input-group">
-	<input type="text" class="form-control" placeholder="Enter Market Name">
+<div class="row">
 
+<div class="col-lg-6">
+<div class="input-group input-group-lg">
+	<input type="text" class="form-control" placeholder="Enter Market Name">
+</div> <!-- Close of input div -->
+</div>
+
+<div class="col-lg-6">
+<div class="btn-group">
+	<button type="button" class="btn btn-success">Search</button>
+	<button type="button" class="btn btn-primary">Add Market</button>
+
+
+</div>
+</div> <!-- close of button div -->
+</div> <!-- close of row --> 
+
+<div class="row">
+<div class="col-lg-12">
+<div class="panel with-nav-tabs panel-default">
+	<div class="panel-heading">
+<ul class="nav nav-tabs">
+	<li class="active"><a href="#tab1default" data-toggle="tab">Most Popular</a></li>
+	<li><a href="#tab2default" data-toggle="tab">Highest Average Rating</a></li>
+	<li><a href="#tab3default" data-toggle="tab">Best Environments</a></li>
+	<li><a href="#tab4default" data-toggle="tab">Most Recent</a></li>
+</ul> <!-- list of tabs -->
+
+</div> <!-- close of panel div  -->
+<div class="panel-body">
+	<div class="tab-content">
+		<div class="tab-pane fade in active" id="tab1default">Default 1</div>
+		<div class="tab-pane fade" id="tab2default">Content Here</div>
+		<div class="tab-pane fade" id="tab3default">Content Here</div>
+		<div class="tab-pane fade" id="tab4default">Content Here</div>
+
+
+
+	</div> <!-- end of tab content -->
 
 </div>
 
 
 
+</div> <!-- close of panel -->
+</div> <!-- close of col -->
 
+</div> <!-- close of row div -->
 
-
+</div> <!-- end of container  -->
 </body>
 </html>
